@@ -21,8 +21,8 @@ if(isset($_POST['submeter'])){
         $mail->isSMTP();                                            // Set mailer to use SMTP
         $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'icarobiomataufpr@gmail.com';                     // SMTP username
-        $mail->Password   = '87881413';                               // SMTP password
+        $mail->Username   = '********@gmail.com';                     // SMTP username
+        $mail->Password   = '********';                               // SMTP password
         $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = 587;                                    // TCP port to connect to
 
